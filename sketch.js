@@ -301,12 +301,13 @@ function positionUI() {
 
     // UI is fixed to the viewport bottom center. Ensure CSS fixed placement is maintained.
     ui.style.position = 'fixed';
-    ui.style.left = '35%';
-    ui.style.transform = 'translateX(-90%)';
+    ui.style.left = '50%';
+    ui.style.transform = 'translateX(-100%)';
     // Use bottom margin from UI_MARGIN variable
     ui.style.bottom = `${UI_MARGIN}px`;
     ui.style.top = 'auto';
 
 }
+
 
 
